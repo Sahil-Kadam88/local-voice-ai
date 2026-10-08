@@ -1,0 +1,24 @@
+venv/
+.venv/
+inference/llama/models/
+
+# Per-machine env overrides (model choice, GPU settings). .env stays tracked.
+.env.local
+.local-voice-ai.toml
+.local-voice-ai.toml.tmp
+.local-voice-ai/
+
+# Python cache artifacts
+**/__pycache__/
+*.pyc
+
+# Packaging metadata from editable installs (pip install -e / uv sync)
+*.egg-info/
+
+# Defense-in-depth: secrets and model artifacts never belong in Git
+*.pem
+*.key
+.env.*
+!.env.example
+*.gguf
+/models/
