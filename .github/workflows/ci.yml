@@ -8,8 +8,8 @@ on:
   workflow_dispatch:
 
 env:
-  # Image refs must be lowercase; github.repository is sahilkadam/local-voice-ai.
-  IMAGE: ghcr.io/sahilkadam/local-voice-ai
+  # Image refs must be lowercase; github.repository is Sahil-Kadam88/local-voice-ai.
+  IMAGE: ghcr.io/sahil-kadam88/local-voice-ai
 
 jobs:
   test:
